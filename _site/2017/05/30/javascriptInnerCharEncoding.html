@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>【博客搭建系列】我的第一个独立blog | Yexin的个人主页</title>
+    <meta name="author" content="yexin" />
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="Everything about yexin" />
+    <meta name="baidu-site-verification" content="" />
+    <meta name="keywords" content="yexin,陈天驰,陈天驰的博客,yexin的博客" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  	<link href="/asserts/css/default.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="/asserts/js/app.js" ></script> 
+</head>
+<body>
+	<!--头部 -->
+	<header class="header">
+		<div class="header-container">
+			<section class="site-logo">
+				<a  href="/">叶心</a>
+			</section>
+			<button class="collapsed " type="button" >
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		    </button>
+		    <div class="menu-container">
+				<nav class="site-nav">
+					<ul>
+						<li>
+							<a  href="/blog/archiveAll.html">随笔</a>
+						</li>
+						<li>
+							<a  href="/blog/archive.html">博客</a>
+						</li>
+						<li>
+							<a  href="/blog/categories.html">分类</a>
+						</li>
+						<li>
+							<a  href="/blog/tags.html">标签</a>
+						</li>
+						<li>
+							<a  href="/demo/demo.html">Demo</a>
+						</li>
+						<li>
+							<a  href="/favour/music.html">音乐</a>
+						</li>
+						<li>
+							<a  href="/favour/book.html">Book</a>
+						</li>
+						<li>
+							<a  href="/about/timeline.html">时间轴</a>
+						</li>
+						<li>
+							<a  href="/others/collection.html">收藏</a>
+						</li>
+						<li>
+							<a  href="/about/about.html">关于</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="site-search">
+					<input type="text" />
+				</div>
+			</div>
+		</div>
+	</header>
+	<link href="/asserts/css/blog_article_post.css" rel="stylesheet" type="text/css" media="all">
+<link href="/asserts/css/blog_personCard_style.css" rel="stylesheet" type="text/css" media="all">
+<link href="/asserts/css/imageBubble.css" rel="stylesheet" type="text/css" media="all">
+	
+	<div class="wrap">
+		<div class="container">
+			<!-- 左侧，内容，多说评论等-->
+			<div class="col-md-9">
+				<!-- 内容-->
+				<div class="markdown-body">
+					<!--标题区域 -->
+					<div class="title-container">
+					<h1 class="page-title"><a  title="【博客搭建系列】我的第一个独立blog">【博客搭建系列】我的第一个独立blog</a> </h1>
+						<!-- metainfo-->
+						<section class="meta clearfix">
+<span class="time">
+<time datetime="2017-05-30">2017-05-30</time>
+</span>
+
+| 
+<span class="categories">
+	分类
+	    
+	    <a href="/blog/categories.html#blog" title="blog">blog</a>&nbsp;
+	    
+</span>
+
+
+| 
+<span class="tags">
+	标签
+		
+		<a href="/blog/tags.html#wiki" title="wiki">wiki</a>&nbsp;
+		
+</span>
+
+| 
+<span class="views">
+	浏览
+	<a id="busuanzi_value_page_pv"></a>&nbsp;
+</span>
+</section>
+						<section class="right-tips">
+							<span >
+								博客搭建
+							</span>
+						</section>
+					</div>
+					<!-- 特别推荐-->
+					
+					<!-- 内容区域-->
+					<div class="content-container">
+						 <h2 id="写在前面的话">写在前面的话</h2>
+<p>本博客基于Jekyll+Github Pages进行搭建。模板为<a href="https://dailc.github.io/about/about.html">Dailc的个人主页</a>
+想要搭建一个blog并不是十分容易的事情，作为一个非计算机相关专业的人想要搭建一个属于自己的独立blog可谓困难重重。
+网上教程多如牛毛，不过真正能把内在逻辑阐述清晰，让你有一个完整思路的教程真的是凤毛麟角。
+我所写的这个教程不一定是完美的，但我会尽量把我踩过的雷区诠释清晰，
+本教程基于Mac OS 系统，如非本系统仅供参考。</p>
+
+<h2 id="大纲">大纲</h2>
+
+<ul>
+  <li>基础
+    <ul>
+      <li>git的使用</li>
+      <li>jekyll的使用</li>
+      <li>前端代码的解读和更改</li>
+    </ul>
+  </li>
+  <li>搭建
+    <ul>
+      <li>安装Bundler</li>
+      <li>安装Jekyll</li>
+      <li>安装代码编辑器</li>
+    </ul>
+  </li>
+  <li>修饰
+    <ul>
+      <li>使用及更改模板</li>
+    </ul>
+  </li>
+  <li>发布
+    <ul>
+      <li>使用github Pages</li>
+    </ul>
+  </li>
+  <li>问题及解决</li>
+</ul>
+
+<h2 id="基础">基础</h2>
+<p>工欲善其事，必先利其器。</p>
+
+<h3 id="git的使用">git的使用</h3>
+<p>git是一款好用的分布式版本控制系统，它可以轻松实现版本之间的切换，独特的分支和暂存区功能大大提高了开发者的开发和修改效率，便于多人协作。
+网上的git教程也是很多，如果你是为了搭建一个blog学习git，推荐学习<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">廖雪峰老师的git教程</a>
+只要你完整地看完廖老师的教程，搭建此博客的git命令也就差不多了。也可以参考我自己整理的git命令。</p>
+
+<h3 id="jekyll的使用">Jekyll的使用</h3>
+<p>Jekyll 是一个简单的博客形态的静态站点生产机器。可以将纯文本转换为静态博客网站。整个网站的页面都是它生成的，从主页index到文章post。
+推荐学习<a href="http://wiki.jikexueyuan.com/project/jekyll/usage.html">极客学院的Jekyll教程</a>以及<a href="http://jekyll.com.cn/">Jekyll中文网</a></p>
+
+<h3 id="前端代码的解读和更改">前端代码的解读和更改</h3>
+<p>由于需要使用别人的模板（当然你是大神直接自己敲代码也可以），多少都要学一些前端的知识。
+这是新手快速搭建博客的最佳选择，我们不要重复造轮子，要善于运用别人开源分享出来的源代码来完成我们自己所要达到的目的。</p>
+
+<h2 id="搭建">搭建</h2>
+
+<h3 id="安装bundler">安装Bundler</h3>
+<p>在Terminal中输入：gem install bundler</p>
+
+<h3 id="安装jekyll">安装Jekyll</h3>
+<p>在Terminal中输入：gem install jekyll   ；将Jekyll存放于一个新的目录中：jekyll new your-site-name。这里要根据自己的需要活学活用。</p>
+
+<h3 id="安装代码编辑器">安装代码编辑器</h3>
+<p>修改模板时电脑不能直接打开html，css和js等文件，这样我们就必须安装一个可以编辑这些文件的编辑器，推荐使用WebStorm。
+WebStorm 是jetbrains公司旗下一款JavaScript 开发工具。
+目前已经被广大中国JS开发者誉为“Web前端开发神器”、“最强大的HTML5编辑器”、“最智能的JavaScript IDE”等。与IntelliJ IDEA同源，继承了IntelliJ IDEA强大的JS部分的功能。
+太多功能我们暂时用不上，不过这也意味着它完全符合我们目前搭建博客用来修改代码的需求。</p>
+
+<h2 id="附录">附录</h2>
+<h3 id="参考资料">参考资料</h3>
+
+<ul>
+  <li><a href="http://www.ruanyifeng.com/blog/2014/12/unicode.html">Unicode与JavaScript详解</a></li>
+  <li><a href="http://www.techweb.com.cn/network/system/2016-10-11/2407639.shtml">JavaScript的内部字符编码是UCS-2还是UTF-16</a></li>
+  <li><a href="http://demon.tw/programming/utf-16-ucs-2.html">UTF-16与UCS-2的区别</a></li>
+  <li><a href="https://zh.wikipedia.org/wiki/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81">维基百科.字符编码</a></li>
+</ul>
+
+					</div>
+					<!-- 上一篇与下一篇-->
+					<section align="right" class="post-next-prev">
+					  <span>
+					    <a   class="pageNavInvalid"  >上一篇</a>
+					    &nbsp;&nbsp;&nbsp;
+					    <a   class="pageNavInvalid"  >下一篇</a>
+					  </span>
+					</section>
+				</div>
+				<!-- 多说-->
+				
+				
+				
+			</div>
+			
+			<!-- 右侧包括个人介绍，TOC菜单-->
+			<div class="col-md-3">
+				<!-- 右侧人物面板-->
+				<div class="effect1 person-card">
+					
+				 	<a  class="member-image">
+				 			<img src="/asserts/images/img_avatar.jpg" alt="Lichun Dai"/>
+				 	</a>
+				 	<div class="member-info">
+				 		<p class="info-name">
+				 		<a >
+				 			Tianchi Chen
+				 		</a>
+				 		</p>
+				 		<p>
+				 			理胜力为常，力胜理为变；一时之强弱在力，千古之胜败在理！欢迎光临我的博客，希望你在此有所收获！
+				 		</p>
+				 	<p class="info-foot">
+				 		<a class="left-card left" href="/blog/archive.html">
+				 			<em>
+				 				博客
+				 			</em>
+				 			<strong>
+				 				1
+				 				
+				 			</strong>
+				 		</a>
+				 		<a class="middle-card left" href="/demo/demo.html">
+				 			<em>
+				 				项目
+				 			</em>
+				 			<strong>
+				 				
+				 			</strong>
+				 		</a>
+				 		<a class="right-card left" href="/blog/archiveAll.html">
+				 			<em>
+				 				随笔
+				 			</em>
+				 			<strong>
+				 				1
+				 			</strong>
+				 		</a>
+				 	</p>
+				 	<p class="info-social-touch">
+				 		<a target="_blank" href="https://github.com/yexin0710" ><img src="/asserts/images/icons/favicon_github.ico" alt="GitHub"/> </a>
+						<a target="_blank" ><img src="/asserts/images/icons/favicon_5sing.ico" alt="5sing" /> </a>
+						<a target="_blank" ><img src="/asserts/images/icons/favicon_changba.ico" alt="唱吧" /> </a>
+						<a target="_blank" href="https://www.zhihu.com/people/yexin0710"><img src="/asserts/images/icons/favicon_zhihu.ico" alt="知乎" /> </a>
+						<a target="_blank" href="http://www.jianshu.com/u/d4ee83b8e5bc"><img src="/asserts/images/icons/favicon_jianshu.ico" alt="简书" /> </a>
+				 	</p>
+				 	</div>
+				</div>
+
+				 <!-- TOC动态菜单-->
+				  <div class="slideNavContainer">     
+				</div> 				
+					
+			</div> 
+ 
+		</div>
+	</div>
+		
+<script type="text/javascript" src="/asserts/js/post.js" ></script>
+<script type="text/javascript" src="/asserts/js/imageBubble.js" ></script>
+<script>
+	ImageBubble.init('.container img');
+</script>
+	
+	<!-- 脚步,包括版权声明，访问次数等-->
+	<footer class="footer">
+	    <p class="copyright">
+	    	<small>
+	            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank" title="许可协议">©</a> 2016&nbsp;&nbsp;&nbsp;&nbsp;<a href="/about/">Tianchi Chen</a>
+	        </small>
+	    </p>
+	    <p class="more-tips">
+	    	<span>Powered by Jekyll</span>&nbsp;&nbsp;&nbsp;&nbsp;
+	    	<span id="busuanzi_container_site_pv">总访客<span id="busuanzi_value_site_uv" class="site-uv"></span>人</span>&nbsp;&nbsp;&nbsp;&nbsp;
+	    	<span id="busuanzi_container_site_pv">总访问<span id="busuanzi_value_site_pv" class="site-pv"></span>次</span>
+	    </p>  
+	</footer>
+
+<!--不蒜子 -->
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+</body>
+</html>

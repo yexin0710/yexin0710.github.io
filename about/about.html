@@ -1,0 +1,101 @@
+---
+layout: default
+---
+		
+
+
+<link href="/asserts/css/blog_personCard_style.css" rel="stylesheet" type="text/css" media="all">
+<link href="/asserts/css/blog_flip_card.css" rel="stylesheet"  />
+<link href="/asserts/css/blog_about.css" rel="stylesheet" />	
+	<div class="wrap">
+		<div class="container">
+			<!-- 左侧，内容，多说评论等-->
+			<div class="col-md-9">
+				<!-- 内容-->
+				<div class="markdown-body">
+					<!--标题区域 -->
+					<div class="title-container">
+					<h1 class="page-title"><a  title="about"></a> </h1>	
+						<section class="right-tips">
+							<span >
+								about
+							</span>
+						</section>
+					</div>
+					<!-- 特别推荐-->
+					<div class="tag-favour">
+						<img src="/asserts/images/img_favour_star_1.png" />
+					</div>
+					<!-- 内容区域-->
+					<div class="content-container">
+						<h2>
+							个人简介
+						</h2>
+						<blockquote>
+						  <p>临渊羡鱼,不如退而结网!</p>
+						</blockquote>
+						<h3>关于本人</h3>
+						<p>
+							一个真名为<strong>陈天驰</strong>的预备程序猿！
+							常用ID<strong>叶心</strong>。
+						</p>
+						<p>
+							有些事情命中注定，有些经历无法逾越，庆幸自己发现了可以为之奋斗一生的事情。
+						</p>
+						<p>
+							坚信<strong>"自由大于一切"</strong>，目前在向准程序猿的道路上前进
+						</p>
+						<p>
+							联系邮箱: <code>294994212@qq.com</code>
+						</p>
+						<h3>关于本站</h3>
+						<p>
+							本站初衷是作为自己个人主页，记录自己的成长，同时给予自己更多动力。
+						</p>
+						<p>
+							基于Jekyll搭建的原因主要是方便用Markdown写文章，以及github托管。
+						</p>
+						<p>
+							本站的样式与效果参考Dailc的blog，感谢原作者的贡献。
+						</p>
+						<p>
+							另外，如果喜欢本站的风格，欢迎去<code>github</code> 上<code>star</code>和<code>fork</code> <a  href="https://github.com/yexin0710/yexin0710.github.io" target="_blank">yexin0710.github.io</a>
+						</p>
+					</div>	
+				</div>
+				
+				
+			</div>
+			
+			<!-- 右侧包括个人介绍，TOC菜单-->
+			<div class="col-md-3">
+				<!-- 右侧人物面板-->
+				<div class="effect2 person-card">
+					{% include litemplate/personcard %}
+				</div>
+				<!--最近博文 -->
+			 	
+				 <div class="recent-blogs border-effect">
+				 	<div class="top-border">
+				 		最近博文
+					</div>
+					
+				 	<ul class="article-list ">
+				 		 {% for post in site.posts limit:10 %}
+				 		 {% capture targetTag %}{{ post.categories | first }}{% endcapture %}
+					 		{% if targetTag != site.bookTag %}
+					 		{% if targetTag != site.musicTag %}
+					 		<li>
+					 			<a  href="{{ post.url }}" >{{ post.title }}</a>
+					 		</li>
+					 		{% endif %}
+					 		{% endif %}
+					 	{% endfor %}
+					 		
+					</ul>	
+				 </div> 						
+			</div> 
+ 
+		</div>
+	</div>
+		
