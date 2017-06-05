@@ -31,7 +31,7 @@ dalic的博客主要参考了以下博文(感谢相关博主)
 
 * [github如何搭建blog]（https://www.zhihu.com/question/23934523/answer/50518023）
 
-* [阮一峰的网络日志之搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+* [阮一峰的网络日志之搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门] (http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
 ## License
 
