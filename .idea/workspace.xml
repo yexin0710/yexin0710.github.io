@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f261e9b5-9f15-4a00-b7de-a7962cabd5b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/blog/2017-05-30-javascriptInnerCharEncoding.md" afterPath="$PROJECT_DIR$/_posts/blog/2017-05-30-javascriptInnerCharEncoding.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/05/30/javascriptInnerCharEncoding.html" afterPath="$PROJECT_DIR$/_site/2017/05/30/javascriptInnerCharEncoding.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/README.md" afterPath="$PROJECT_DIR$/_site/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -68,6 +66,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -114,7 +113,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,11 +135,12 @@
       <workItem from="1496623552808" duration="2505000" />
       <workItem from="1496626473987" duration="180000" />
       <workItem from="1496626711328" duration="429000" />
+      <workItem from="1496627771803" duration="71000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3445000" />
+    <option name="totallyTimeSpent" value="3516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="63" width="1212" height="737" extended-state="0" />
@@ -233,8 +232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/blog/2017-05-30-javascriptInnerCharEncoding.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+        <state relative-caret-position="493">
+          <caret line="83" column="21" lean-forward="true" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
           <folding />
         </state>
       </provider>
