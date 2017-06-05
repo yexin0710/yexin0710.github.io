@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>git命令总结 | Yexin的个人主页</title>
+    <meta name="author" content="yexin" />
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="Everything about yexin" />
+    <meta name="baidu-site-verification" content="" />
+    <meta name="keywords" content="yexin,陈天驰,陈天驰的博客,yexin的博客" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  	<link href="/asserts/css/default.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="/asserts/js/app.js" ></script> 
+</head>
+<body>
+	<!--头部 -->
+	<header class="header">
+		<div class="header-container">
+			<section class="site-logo">
+				<a  href="/">叶心</a>
+			</section>
+			<button class="collapsed " type="button" >
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		    </button>
+		    <div class="menu-container">
+				<nav class="site-nav">
+					<ul>
+						<li>
+							<a  href="/blog/archiveAll.html">随笔</a>
+						</li>
+						<li>
+							<a  href="/blog/archive.html">博客</a>
+						</li>
+						<li>
+							<a  href="/blog/categories.html">分类</a>
+						</li>
+						<li>
+							<a  href="/blog/tags.html">标签</a>
+						</li>
+						<li>
+							<a  href="/demo/demo.html">Demo</a>
+						</li>
+						<li>
+							<a  href="/favour/music.html">音乐</a>
+						</li>
+						<li>
+							<a  href="/favour/book.html">Book</a>
+						</li>
+						<li>
+							<a  href="/about/timeline.html">时间轴</a>
+						</li>
+						<li>
+							<a  href="/others/collection.html">收藏</a>
+						</li>
+						<li>
+							<a  href="/about/about.html">关于</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="site-search">
+					<input type="text" />
+				</div>
+			</div>
+		</div>
+	</header>
+	<link href="/asserts/css/blog_article_post.css" rel="stylesheet" type="text/css" media="all">
+<link href="/asserts/css/blog_personCard_style.css" rel="stylesheet" type="text/css" media="all">
+<link href="/asserts/css/imageBubble.css" rel="stylesheet" type="text/css" media="all">
+	
+	<div class="wrap">
+		<div class="container">
+			<!-- 左侧，内容，多说评论等-->
+			<div class="col-md-9">
+				<!-- 内容-->
+				<div class="markdown-body">
+					<!--标题区域 -->
+					<div class="title-container">
+					<h1 class="page-title"><a  title="git命令总结">git命令总结</a> </h1>
+						<!-- metainfo-->
+						<section class="meta clearfix">
+<span class="time">
+<time datetime="2017-06-05">2017-06-05</time>
+</span>
+
+| 
+<span class="categories">
+	分类
+	    
+	    <a href="/blog/categories.html#命令" title="命令">命令</a>&nbsp;
+	    
+</span>
+
+
+| 
+<span class="tags">
+	标签
+		
+		<a href="/blog/tags.html#总结" title="总结">总结</a>&nbsp;
+		
+</span>
+
+| 
+<span class="views">
+	浏览
+	<a id="busuanzi_value_page_pv"></a>&nbsp;
+</span>
+</section>
+						<section class="right-tips">
+							<span >
+								命令总结
+							</span>
+						</section>
+					</div>
+					<!-- 特别推荐-->
+					
+					<!-- 内容区域-->
+					<div class="content-container">
+						 <h2 id="分支操作">分支操作</h2>
+
+<ul>
+  <li>
+    <p>列出所有现有分支</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git branch -av
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>切换分支</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git checkout &lt;branch&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>基于当前分支建立一个新的分支</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git branch &lt;new-branch&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>基于远程分支建立一个新的跟踪分支</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git checkout --track &lt;remote/bran-ch&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>删除一个本地分支</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git branch -d &lt;branch&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>标记当前分支（标记名称自定义）</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git tag &lt;tag-name&gt;
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+<h2 id="更新和发布">更新和发布</h2>
+
+<ul>
+  <li>
+    <p>列出目前所有的git文件以及相关内容</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git remote -v
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>显示远程信息</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git remote show &lt;remote&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>添加新的远程库</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git remote add &lt;short name&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>从远程下载所有更改但不要更改到本地</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git fetch &lt;remote&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>从远程直接下载所有更改并更改进本地</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git pull &lt;remote&gt; &lt;branch&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>远程发布本地更改</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git push &lt;remote&gt; &lt;branch&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>把本地库的所有内容推送到远程库上</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git push -u origin master
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>在远程删除一个分支</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git branch -dr &lt;remote/branch&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>发布标签</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git push --tags
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+<h2 id="创造">创造</h2>
+
+<ul>
+  <li>
+    <p>克隆现有库(克隆其他人的仓库，但是必须知道那个仓库的地址)</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git clone ssh://user@domain.com/repo.git
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>创建一个新的本地储存库(将一个空目录变成git可以管理的仓库)</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git init
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+<h2 id="本地更改">本地更改</h2>
+
+<ul>
+  <li>
+    <p>查看当前修改(时刻掌握仓库当前的状态)</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git status
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>查看当前修改的不同(显示仓库修改前后的不同点，显示的格式是Unix通用的diff格式)</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git diff
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>添加当前所有变化到暂存区(把文件添加到仓库)</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git add
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>提交所有本地变化</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git commit -a
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>提交现有的本地更改</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git commit
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>把文件提交到仓库（“”中写此次提交的内容）</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git commit -m“file”
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>改变过去的改变（不能提交修改发表）</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git commit --amend
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>将本地仓库关联到远程库中（需要电脑配置好了SSH Key公钥）</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git remote add origin git@server-name:path/repo-name.git
+
+           $ git remote add origin(远程库)
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+<h2 id="修改历史">修改历史</h2>
+
+<ul>
+  <li>
+    <p>显示所有修改(显示最近到最远的提交日志，也可以加上“- -pretty=oneline” 参数)</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git log
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>显示变化的修改</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git log -p &lt; le&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>查看命令历史</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git reflog
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>显示谁在文件中修改了什么</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git blame &lt; le&gt;
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+<h2 id="合并">合并</h2>
+
+<ul>
+  <li>
+    <p>将分支合并到当前的头</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git merge &lt;branch&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>退回版本</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git reset
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>回到最近一次git commit 或git add 时的状态</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git checkout - -file(文件)
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>变更你当前的头（不要提交）</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git rebase &lt;branch&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>终止一个变基</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>           $ git rebase --abort
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+<h2 id="核心总结">核心总结</h2>
+
+<ul>
+  <li>
+    <p>git是一个分布式版本控制系统</p>
+  </li>
+  <li>
+    <p>repository是版本库，仓库（可以理解成一个目录）</p>
+  </li>
+  <li>
+    <p>所有的版本控制系统都只能跟踪文本文件的改动，不能跟踪文件的变化，只能把二进制文件每次改动串起来。</p>
+  </li>
+  <li>
+    <p>Unix的哲学是“没有消息就是好消息”</p>
+  </li>
+  <li>
+    <p>pwd命令用于显示当前目录，mkdir命令用于建立一个新的空目录</p>
+  </li>
+  <li>
+    <p>提交修改和提交新文件是一样的两步，即git add 和git commit</p>
+  </li>
+  <li>
+    <p>git中用HEAD表示当前版本</p>
+  </li>
+  <li>
+    <p>git 跟踪并管理的是修改而非文件（git跟踪修改时每次修改如果不add到暂存区，那就不会加入到commit中）</p>
+  </li>
+  <li>
+    <p>git checkout - -file(文件) 命令可以让这个文件回到最近一次git commit 或git add 时的状态</p>
+  </li>
+  <li>
+    <p>git reast HEAD file 命令可以把暂存区的修改撤销掉（unstage），重新放回工作区。</p>
+  </li>
+  <li>
+    <p>git有工作区，暂存区，版本库，远程库</p>
+  </li>
+  <li>
+    <p>git rm 用于删除一个文件（如果该文件已经提交到版本库就不用担心误删等操作，可以用get checkout - -file命令进行复原，但会丢掉最近一次提交后你修改的内容）</p>
+  </li>
+  <li>
+    <p>git remote add origin(远程库) git@github.com:yourgithubusername/file.git 命令可以将本地仓库关联到远程库中（需要电脑配置好了SSH Key公钥）git remote add origin git@server-name:path/repo-name.git</p>
+  </li>
+  <li>
+    <p>git push -u origin master命令可以把本地库的所有内容推送到远程库上，第一次推送关联所以加上了-u参数（把当前分支master推送到远程）</p>
+  </li>
+  <li>
+    <p>git clone 命令可以克隆其他人的仓库，但是必须知道那个仓库的地址</p>
+  </li>
+  <li>
+    <p>git支持多种协议，包括https。通过ssh支持的原生git协议速度最快</p>
+  </li>
+  <li>
+    <p>git checkout 命令加上-b参数表示创建并切换（相当于git branch dev , git checkout dev两个命令）</p>
+  </li>
+  <li>
+    <p>查看分支 git branch</p>
+  </li>
+  <li>
+    <p>创建分支 git branch <name></name></p>
+  </li>
+  <li>
+    <p>切换分支 git checkout <name></name></p>
+  </li>
+  <li>
+    <p>创建加切换分支 git checkout -b <name></name></p>
+  </li>
+  <li>
+    <p>合并某分支到当前分支 git merge <name></name></p>
+  </li>
+  <li>
+    <p>删除分支 git branch -d <name></name></p>
+  </li>
+  <li>
+    <p>开发一个新功能最好新建一个分支</p>
+  </li>
+</ul>
+
+
+					</div>
+					<!-- 上一篇与下一篇-->
+					<section align="right" class="post-next-prev">
+					  <span>
+					    <a  href="/2017/05/30/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8Bblog.html" class="active"  >上一篇</a>
+					    &nbsp;&nbsp;&nbsp;
+					    <a   class="pageNavInvalid"  >下一篇</a>
+					  </span>
+					</section>
+				</div>
+				<!-- 多说-->
+				
+				
+				
+			</div>
+			
+			<!-- 右侧包括个人介绍，TOC菜单-->
+			<div class="col-md-3">
+				<!-- 右侧人物面板-->
+				<div class="effect1 person-card">
+					
+				 	<a  class="member-image">
+				 			<img src="/asserts/images/img_avatar.jpg" alt="Lichun Dai"/>
+				 	</a>
+				 	<div class="member-info">
+				 		<p class="info-name">
+				 		<a >
+				 			Tianchi Chen
+				 		</a>
+				 		</p>
+				 		<p>
+				 			理胜力为常，力胜理为变；一时之强弱在力，千古之胜败在理！欢迎光临我的博客，希望你在此有所收获！
+				 		</p>
+				 	<p class="info-foot">
+				 		<a class="left-card left" href="/blog/archive.html">
+				 			<em>
+				 				博客
+				 			</em>
+				 			<strong>
+				 				1
+				 				
+				 			</strong>
+				 		</a>
+				 		<a class="middle-card left" href="/demo/demo.html">
+				 			<em>
+				 				项目
+				 			</em>
+				 			<strong>
+				 				
+				 			</strong>
+				 		</a>
+				 		<a class="right-card left" href="/blog/archiveAll.html">
+				 			<em>
+				 				随笔
+				 			</em>
+				 			<strong>
+				 				2
+				 			</strong>
+				 		</a>
+				 	</p>
+				 	<p class="info-social-touch">
+				 		<a target="_blank" href="https://github.com/yexin0710" ><img src="/asserts/images/icons/favicon_github.ico" alt="GitHub"/> </a>
+						<a target="_blank" ><img src="/asserts/images/icons/favicon_5sing.ico" alt="5sing" /> </a>
+						<a target="_blank" ><img src="/asserts/images/icons/favicon_changba.ico" alt="唱吧" /> </a>
+						<a target="_blank" href="https://www.zhihu.com/people/yexin0710"><img src="/asserts/images/icons/favicon_zhihu.ico" alt="知乎" /> </a>
+						<a target="_blank" href="http://www.jianshu.com/u/d4ee83b8e5bc"><img src="/asserts/images/icons/favicon_jianshu.ico" alt="简书" /> </a>
+				 	</p>
+				 	</div>
+				</div>
+
+				 <!-- TOC动态菜单-->
+				  <div class="slideNavContainer">     
+				</div> 				
+					
+			</div> 
+ 
+		</div>
+	</div>
+		
+<script type="text/javascript" src="/asserts/js/post.js" ></script>
+<script type="text/javascript" src="/asserts/js/imageBubble.js" ></script>
+<script>
+	ImageBubble.init('.container img');
+</script>
+	
+	<!-- 脚步,包括版权声明，访问次数等-->
+	<footer class="footer">
+	    <p class="copyright">
+	    	<small>
+	            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank" title="许可协议">©</a> 2016&nbsp;&nbsp;&nbsp;&nbsp;<a href="/about/">Tianchi Chen</a>
+	        </small>
+	    </p>
+	    <p class="more-tips">
+	    	<span>Powered by Jekyll</span>&nbsp;&nbsp;&nbsp;&nbsp;
+	    	<span id="busuanzi_container_site_pv">总访客<span id="busuanzi_value_site_uv" class="site-uv"></span>人</span>&nbsp;&nbsp;&nbsp;&nbsp;
+	    	<span id="busuanzi_container_site_pv">总访问<span id="busuanzi_value_site_pv" class="site-pv"></span>次</span>
+	    </p>  
+	</footer>
+
+<script>
+//百度统计
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?4cad880c1ba83acf9a10265a8a5aab1a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!--不蒜子 -->
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+</body>
+</html>

@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f261e9b5-9f15-4a00-b7de-a7962cabd5b4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/blog/2017-05-30-javascriptInnerCharEncoding.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2017/05/30/javascriptInnerCharEncoding.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/05/30/javascriptInnerCharEncoding.html" afterPath="$PROJECT_DIR$/_site/2017/05/30/javascriptInnerCharEncoding.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/blog/2017-06-05-git命令.md" afterPath="$PROJECT_DIR$/_posts/blog/2017-06-05-git命令.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/about.html" afterPath="$PROJECT_DIR$/_site/about/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/archive.html" afterPath="$PROJECT_DIR$/_site/blog/archive.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/archiveAll.html" afterPath="$PROJECT_DIR$/_site/blog/archiveAll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/categories.html" afterPath="$PROJECT_DIR$/_site/blog/categories.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/tags.html" afterPath="$PROJECT_DIR$/_site/blog/tags.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/demo/demo.html" afterPath="$PROJECT_DIR$/_site/demo/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/favour/book.html" afterPath="$PROJECT_DIR$/_site/favour/book.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/favour/music.html" afterPath="$PROJECT_DIR$/_site/favour/music.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/search/search_data.json" afterPath="$PROJECT_DIR$/_site/search/search_data.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +35,7 @@
     <favorites_list name="yexin0710.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +46,7 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_posts/blog/2017-05-30-javascriptInnerCharEncoding.md" />
+        <option value="$PROJECT_DIR$/_site/2017/06/05/git命令.html" />
         <option value="$PROJECT_DIR$/_posts/blog/2017-06-05-git命令.md" />
       </list>
     </option>
@@ -113,8 +124,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,14 +150,16 @@
       <workItem from="1496626711328" duration="429000" />
       <workItem from="1496627771803" duration="71000" />
       <workItem from="1496627917147" duration="1341000" />
+      <workItem from="1496629546256" duration="52000" />
+      <workItem from="1496629730462" duration="221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4857000" />
+    <option name="totallyTimeSpent" value="5130000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="63" width="1212" height="737" extended-state="0" />
+    <frame x="6" y="63" width="1212" height="737" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -178,6 +191,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_site/2017/06/05/git命令.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -226,27 +247,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/blog/2017-05-30-javascriptInnerCharEncoding.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="84" column="3" lean-forward="false" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/blog/2017-06-05-git命令.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="221" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/blog/2017-05-30-javascriptInnerCharEncoding.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -254,6 +259,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/blog/2017-06-05-git命令.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="137" column="40" lean-forward="false" selection-start-line="137" selection-start-column="40" selection-end-line="137" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/2017/06/05/git命令.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding />
         </state>
       </provider>
