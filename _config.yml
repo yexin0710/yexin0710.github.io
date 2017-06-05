@@ -21,7 +21,7 @@ demoTag: project
 # excerpt 前期考虑用excerpt作为文章摘要,后面发出会影响统一样式，于是放弃了
 #excerpt_separator: "\n\n\n\n"
 #百度统计标识后期完善
-baidu_analytics_id:
+baidu_analytics_id: 4cad880c1ba83acf9a10265a8a5aab1a
 
 url: https://yexin0710.github.io
 title: Yexin的个人主页
