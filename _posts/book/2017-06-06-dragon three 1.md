@@ -7,7 +7,7 @@ bookType: readed
 cover:  https://img3.doubanio.com/lpic/s24870866.jpg
 title: 龙族3（上）
 title_en: (Dragon)
-description:西伯利亚无名港，邦达列夫上校带来了前苏联解体的消息，他与赫尔佐格博士打成协议，将资助博士继续龙族基因方面的研究。临走前突发异变...
+description: 西伯利亚无名港，邦达列夫上校带来了前苏联解体的消息，他与赫尔佐格博士打成协议，将资助博士继续龙族基因方面的研究。临走前突发异变...
 ---
 
 ## 简介

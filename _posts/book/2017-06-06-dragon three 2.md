@@ -7,7 +7,7 @@ bookType: readed
 cover:  https://img1.doubanio.com/lpic/s27222807.jpg
 title: 龙族3（下）
 title_en: (Dragon)
-description:逆命者，将被灼热的矛，贯穿在地狱的最深处！
+description: 逆命者，将被灼热的矛，贯穿在地狱的最深处！
 ---
 
 ## 简介
