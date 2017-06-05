@@ -3,7 +3,7 @@
 
 不过最后还是选择了基于github+jekyll来搭建自己的blog，由于自己是半路出家，想转技术所以太多太多基础的知识点不了解。
 
-jekyll博客的搭建过程,见[博客搭建系列之我的第一个独立blog](https://yexin0710.github.io/2017/05/30/javascriptInnerCharEncoding.html)
+jekyll博客的搭建过程,见[博客搭建系列之我的第一个独立blog](https://yexin0710.github.io/2017/05/30/.html)
 
 本博客模板来源于dalic，感谢他做出了这么棒的模板并且还开源出来供大家参考。
 
