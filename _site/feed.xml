@@ -5,8 +5,8 @@
     <description>整理总结自己零散的知识体系，向世界诠释自己人生的意义！</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Jun 2017 23:39:37 +0800</pubDate>
-    <lastBuildDate>Mon, 05 Jun 2017 23:39:37 +0800</lastBuildDate>
+    <pubDate>Tue, 06 Jun 2017 00:39:54 +0800</pubDate>
+    <lastBuildDate>Tue, 06 Jun 2017 00:39:54 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -22,6 +22,25 @@
         
         
         <category>命令</category>
+        
+      </item>
+    
+      <item>
+        <title>35岁前要活学活用的经济学通识</title>
+        <description>&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
+&lt;blockquote&gt;
+  《35岁前要活学活用的经济学通识》中用通俗易懂的语言对经济学的本质、经济学独特的思考方式以及经济学的基本概念和规律进行了系统而深入浅出的讲解，并通过大量年轻人生活的案例，全面剖析了经济学在社会生活各个领域的广泛应用以及经济学规律对生活的巨大作用，帮助广大读者通过一本书读懂经济学，掌握经济学的精髓，并由此在35岁以前做好人生投资，为35岁以后的人生铺平道路，奠定成功人生的基础。
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 30 May 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/05/30/general-economics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/30/general-economics.html</guid>
+        
+        <category>经济</category>
+        
+        
+        <category>book</category>
         
       </item>
     
