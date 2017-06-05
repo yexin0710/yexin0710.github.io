@@ -8,10 +8,9 @@ description: 从0到1教你如何搭建自己的独立博客
 ---
 
 ## 写在前面的话
-本博客基于Jekyll+Github Pages进行搭建。模板为[Dailc的个人主页](https://dailc.github.io/about/about.html)
-想要搭建一个blog并不是十分容易的事情，作为一个非计算机相关专业的人想要搭建一个属于自己的独立blog可谓困难重重。
+本博客基于Jekyll+Github Pages进行搭建，模板为[Dailc的个人主页](https://dailc.github.io/about/about.html)。
+作为一个非计算机相关专业的人想要搭建一个属于自己的独立blog可谓困难重重。
 网上教程多如牛毛，不过真正能把内在逻辑阐述清晰，让你有一个完整思路的教程真的是凤毛麟角。
-我所写的这个教程不一定是完美的，但我会尽量把我踩过的雷区诠释清晰，
 本教程基于Mac OS 系统，如非本系统仅供参考。
 
 ## 大纲
@@ -40,7 +39,7 @@ git是一款好用的分布式版本控制系统，它可以轻松实现版本�
 
 ### Jekyll的使用
 Jekyll 是一个简单的博客形态的静态站点生产机器。可以将纯文本转换为静态博客网站。整个网站的页面都是它生成的，从主页index到文章post。
-推荐学习[极客学院的Jekyll教程](http://wiki.jikexueyuan.com/project/jekyll/usage.html)以及[Jekyll中文网](http://jekyll.com.cn/)
+推荐学习[极客学院的Jekyll教程](http://wiki.jikexueyuan.com/project/jekyll/usage.html)以及[Jekyll中文网](http://jekyll.com.cn/)中相关内容。
 
 ### 前端代码的解读和更改
 由于需要使用别人的模板（当然你是大神直接自己敲代码也可以），多少都要学一些前端的知识。
@@ -69,7 +68,7 @@ WebStorm 是jetbrains公司旗下一款JavaScript 开发工具。
 ## 发布
 
 ### 使用Github Pages
-将本地仓库关联到github上的master分支上，github 就会将你的博客自动部署在github Pages上。具体步骤查看附录资料，其他人的教程已经阐释的十分详细了。
+将本地仓库关联到github上的master分支上，github 就会将你的博客自动部署在github Pages中。具体步骤查看附录资料，教程阐释的十分详细。
 
 ## 问题及解决
 如果在搭建过程中有什么问题，或出现了bug自己解决不了的，首先要运用搜索引擎（最好Google），如果查不到也可以联系本人，大家一起探讨。
