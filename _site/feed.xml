@@ -5,8 +5,8 @@
     <description>整理总结自己零散的知识体系，向世界诠释自己人生的意义！</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Jun 2017 01:07:29 +0800</pubDate>
-    <lastBuildDate>Tue, 06 Jun 2017 01:07:29 +0800</lastBuildDate>
+    <pubDate>Tue, 06 Jun 2017 09:27:36 +0800</pubDate>
+    <lastBuildDate>Tue, 06 Jun 2017 09:27:36 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -130,38 +130,81 @@
       </item>
     
       <item>
-        <title>git命令总结</title>
-        <description>&lt;h2 id=&quot;分支操作&quot;&gt;分支操作&lt;/h2&gt;
-
+        <title>斗破苍穹</title>
+        <description>&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
+&lt;blockquote&gt;
+  天才少年萧炎在创造了家族空前绝后的修炼纪录后突然成了废人，整整三年时间，家族冷遇，旁人轻视，被未婚妻退婚……种种打击接踵而至。就在他即将绝望的时候，一缕幽魂从他手上的戒指里浮现，一扇全新的大门在面前开启!
+&lt;/blockquote&gt;
 </description>
-        <pubDate>Mon, 05 Jun 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/06/05/gitconclusion.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/06/05/gitconclusion.html</guid>
+        <pubDate>Tue, 06 Jun 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/06/06/doupo.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/06/doupo.html</guid>
         
-        <category>总结</category>
+        <category>小说</category>
         
         
-        <category>命令</category>
+        <category>book</category>
         
       </item>
     
       <item>
-        <title>【博客搭建系列】我的第一个独立blog</title>
-        <description>&lt;h2 id=&quot;写在前面的话&quot;&gt;写在前面的话&lt;/h2&gt;
-本博客基于Jekyll+Github Pages进行搭建，模板为&lt;a href=&quot;https://dailc.github.io/about/about.html&quot;&gt;Dailc的个人主页&lt;/a&gt;。
-作为一个非计算机相关专业的人想要搭建一个属于自己的独立blog可谓困难重重。
-网上教程多如牛毛，不过真正能把内在逻辑阐述清晰，让你有一个完整思路的教程真的是凤毛麟角。
-本教程基于Mac OS 系统，如非本系统仅供参考。
-
+        <title>斗罗大陆3龙王传说</title>
+        <description>&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
+&lt;blockquote&gt;
+  经典之上,再铸传奇！《斗罗大陆》系列是唐家三少影响力最大、人气最火爆的代表作品，被很多人奉为“唐门经典”。《斗罗大陆第二部 绝世唐门》小说、漫画火爆热售，市场热度居高不下。此次发售作品《斗罗大陆第三部 龙王传说》是《斗罗大陆》系列的第三部，《神漫》杂志力推。在作品内容上，这部作品不同于同系列作品，将会有更多巧妙的设计，会增加一些体系，譬如精神力体系、斗铠体系等等，武魂也有全新创新，斗罗大陆也不会是这个世界的唯一大陆，会有全新大陆的出现，这将是一个更加宏大的世界。在这个世界里，期待你来寻找隐藏龙王的踪迹……
+  随着魂导科技的进步，斗罗大陆上的人类征服了海洋，又发现了两片大陆。魂兽也随着人类魂师的猎杀无度走向灭亡，沉睡无数年的魂兽之王在星斗大森林*后的净土苏醒，它要带领仅存的族人，向人类复仇！
+  唐舞麟立志要成为一名强大的魂师，可当武魂觉醒时，苏醒的，却是……
+  旷世之才，龙王之争，我们的龙王传说，将由此开始。
+&lt;/blockquote&gt;
 </description>
-        <pubDate>Tue, 30 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/30/firstblog.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/30/firstblog.html</guid>
+        <pubDate>Tue, 06 Jun 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/06/06/douluo3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/06/douluo3.html</guid>
         
-        <category>wiki</category>
+        <category>小说</category>
         
         
-        <category>blog</category>
+        <category>book</category>
+        
+      </item>
+    
+      <item>
+        <title>斗罗大陆2绝世唐门</title>
+        <description>&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
+&lt;blockquote&gt;
+  自幼饱受欺凌的霍雨浩在母亲死后悄悄离开了带给他无数黑暗记忆的公爵府。意外之下融合了百万年魂兽天梦冰蚕，拥有了史无前例的智慧魂环、百万年魂环。前路等待着他的，是唐门以及史莱克学院！
+  这里没有魔法，没有斗气，没有武术，却有武魂。唐门创立万年之后的斗罗大陆上，唐门式微。一代天骄横空出世，新一代史莱克七怪能否重振唐门，谱写一曲绝世唐门之歌？
+  百万年魂兽，手握日月摘星辰的死灵圣法神，导致唐门衰落的全新 魂导器体系。一切的神奇都将一一展现。
+  唐门暗器能否重振雄风，唐门能否重现辉煌，一切尽在《绝世唐门》！
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 06 Jun 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/06/06/douluo2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/06/douluo2.html</guid>
+        
+        <category>小说</category>
+        
+        
+        <category>book</category>
+        
+      </item>
+    
+      <item>
+        <title>斗罗大陆</title>
+        <description>&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
+&lt;blockquote&gt;
+  这里没有魔法，没有斗气，没有武术，却有神奇的武魂。这里的每个人，在自己六岁的时候，都会在武魂殿中令武魂觉醒。武魂有动物，有植物，有器物，它们可以辅助人们的日常生活。而其中一些特别出色的武魂却可以用来修炼，这个职业，是斗罗大陆上最为强大也是最重要的职业——魂师。
+  当唐门暗器来到斗罗大陆，当唐三武魂觉醒。他能否在这片武魂的世界重塑唐门辉煌？
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 06 Jun 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/06/06/douluo.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/06/douluo.html</guid>
+        
+        <category>小说</category>
+        
+        
+        <category>book</category>
         
       </item>
     
