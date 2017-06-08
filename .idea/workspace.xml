@@ -203,15 +203,15 @@
       <workItem from="1496881334346" duration="62000" />
       <workItem from="1496881941904" duration="141000" />
       <workItem from="1496882168692" duration="207000" />
-      <workItem from="1496884613186" duration="3840000" />
+      <workItem from="1496884613186" duration="3902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21256000" />
+    <option name="totallyTimeSpent" value="21318000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1219" height="777" extended-state="1" />
+    <frame x="0" y="23" width="1219" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28055784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -555,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/blog/2017-06-08-markdown.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        <state relative-caret-position="458">
+          <caret line="75" column="6" lean-forward="false" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
           <folding />
         </state>
       </provider>
