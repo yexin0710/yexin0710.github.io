@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f261e9b5-9f15-4a00-b7de-a7962cabd5b4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/blog/2017-06-08-markdown.md" afterPath="$PROJECT_DIR$/_posts/blog/2017-06-08-markdown.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/08/markdown.html" afterPath="$PROJECT_DIR$/_site/2017/06/08/markdown.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
@@ -184,12 +185,12 @@
       <workItem from="1496881941904" duration="141000" />
       <workItem from="1496882168692" duration="207000" />
       <workItem from="1496884613186" duration="5849000" />
-      <workItem from="1496890910265" duration="48000" />
+      <workItem from="1496890910265" duration="235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23313000" />
+    <option name="totallyTimeSpent" value="23500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1219" height="777" extended-state="6" />
@@ -543,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/blog/2017-06-08-markdown.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="84" column="12" lean-forward="false" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
+        <state relative-caret-position="353">
+          <caret line="89" column="3" lean-forward="false" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
           <folding />
         </state>
       </provider>
