@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f261e9b5-9f15-4a00-b7de-a7962cabd5b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/blog/2017-06-08-markdown.md" afterPath="$PROJECT_DIR$/_posts/blog/2017-06-08-markdown.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/08/markdown.html" afterPath="$PROJECT_DIR$/_site/2017/06/08/markdown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,6 +68,7 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_posts/blog/2017-06-08-markdown.md" />
+        <option value="$PROJECT_DIR$/_posts/blog/2017-06-10-css.md" />
       </list>
     </option>
   </component>
@@ -124,24 +126,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yexin0710.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yexin0710.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -184,15 +168,16 @@
       <workItem from="1496882168692" duration="207000" />
       <workItem from="1496884613186" duration="5849000" />
       <workItem from="1496890910265" duration="494000" />
-      <workItem from="1496926195581" duration="171000" />
+      <workItem from="1496926195581" duration="243000" />
+      <workItem from="1497094480734" duration="4422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23930000" />
+    <option name="totallyTimeSpent" value="28424000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1219" height="777" extended-state="1" />
+    <frame x="0" y="23" width="1219" height="777" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28055784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -242,13 +227,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/book/2017-06-06-douluo3.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/book/2017-06-06-doupo.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -529,20 +507,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/blog/2017-05-30-firstblog.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-712">
+        <state relative-caret-position="-726">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/blog/2017-06-08-markdown.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="660">
           <caret line="97" column="56" lean-forward="false" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/blog/2017-06-10-css.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="78" column="58" lean-forward="false" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
           <folding />
         </state>
       </provider>
