@@ -196,8 +196,35 @@
 <h3 id="简介">简介</h3>
 <p>css指层叠式样式表，样式定义如何显示HTML元素，样式通常储存在样式表中；把样式添加到html中是为了解决内容与表现分离的问题，这样（外部样式表）极大的提高了工作效率；多个样式定义可以层叠为一，外部样式表可以使你有能力同时改变站点中所有页面的布局和外观。</p>
 <h3 id="语法">语法</h3>
-<p>css规则由两个主要部分构成，选择器和声明。选择器对应html元素，声明对应属性和值（样式属性：值）
-<img src="https://github.com/yexin0710/yexin0710.github.io/blob/master/asserts/images/blog/css1.jpg" alt="css规则" /></p>
+<p>css规则由两个主要部分构成，选择器和声明。选择器对应html元素，声明对应属性和值（样式属性：值）;css声明总是以分号结束，以大括号括起来，注释以”/*“开始，以”*/”结束。</p>
+<h3 id="id和class选择器">ID和Class选择器</h3>
+<p>css中ID选择器以”#“来定义；ID属性不能以数字开头（在一些浏览器中无法显示）。class选择器可以在多个元素中使用，在css中类选择器以”.”号显示，也可以指定特定的html元素使用class。</p>
+<h3 id="创建">创建</h3>
+<p>插入样式表的方法有：外部样式表，内部样式表，内联样式。多层样式将叠加为一个，即他们是有层叠次序的。（内联&gt;内部&gt;外部&gt;浏览器缺省）</p>
+<h3 id="背景">背景</h3>
+<p>css属性定义背景效果：</p>
+<ul>
+  <li>background-color 背景颜色</li>
+  <li>background-image 背景图像</li>
+  <li>background-repeat 背景图像平铺（repeat-x,no-repeat）（设置图像是否及如何重复）</li>
+  <li>background-attachment 背景图像是否固定或者随着页面的其余部分滚动</li>
+  <li>
+    <p>background-position 背景图像起始位置
+简写属性：背景可以简写在一个属性中，简写属性为”background”（顺序为color,image,repeat,attachment,position）</p>
+
+    <p>body{background:#ffffff
+  url(‘img_css.png’) no-repeat right top;}</p>
+  </li>
+</ul>
+
+<h3 id="文本">文本</h3>
+<ul>
+  <li>text-align 文本对齐方式（center，right，left，justify）</li>
+  <li>text-decoration 设置或删除文本的装饰（主要是用来删除链接下划线text-decoration:none）(overline,line-through,underline)</li>
+  <li>text-transform 文本转换（用来指定大写和小写字母）（uppercase全大写,lowercase全小写,capitalize每个单词小写）</li>
+  <li>text-indent 文本缩进（letter-spacing用来增加和减少字符之间的空间）（line-height用来指定段落中行之间的空间）（word-spacing增加单词之间的空白空间）
+*</li>
+</ul>
 
 
 					</div>
