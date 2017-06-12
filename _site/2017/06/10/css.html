@@ -212,8 +212,10 @@
     <p>background-position 背景图像起始位置
 简写属性：背景可以简写在一个属性中，简写属性为”background”（顺序为color,image,repeat,attachment,position）</p>
 
-    <p>body{background:#ffffff
-  url(‘img_css.png’) no-repeat right top;}</p>
+    <div class="highlighter-rouge"><pre class="highlight"><code>   body{background:#ffffff
+   url('img_css.png') no-repeat right top;}
+</code></pre>
+    </div>
   </li>
 </ul>
 
@@ -224,21 +226,16 @@
   <li>text-transform 文本转换（用来指定大写和小写字母）（uppercase全大写,lowercase全小写,capitalize每个单词首字母大写）</li>
   <li>text-indent 文本缩进（letter-spacing用来增加和减少字符之间的空间）（line-height用来指定段落中行之间的空间）（word-spacing增加单词之间的空白空间）（white-space:nowrap在元素内禁止文字环绕）</li>
   <li>text-shadow 设置文本阴影</li>
-  <li>vertical-align 设置元素的垂直对齐（可以是图像）</li>
-</ul>
-
-<h3 id="字体">字体</h3>
-<ul>
+  <li>vertical-align 设置元素的垂直对齐（可以是图像）
+    <h3 id="字体">字体</h3>
+  </li>
   <li>font 在一个声明中设置所有的字体属性</li>
   <li>font-family 指定文本的字体系列</li>
   <li>font-size 指定文本的字体大小（也可以用em来设置字体的大小 1em默认大小为16px）（使用百分比和em组合可以解决所有浏览器显示问题）</li>
   <li>font-variant 以小型大写字体或者正常字体显示文本</li>
-  <li>font-weight 指定字体的粗细</li>
-</ul>
-
-<h3 id="链接">链接</h3>
-<h3 id="链接-1">链接</h3>
-<ul>
+  <li>font-weight 指定字体的粗细
+    <h3 id="链接">链接</h3>
+  </li>
   <li>a:link-正常未访问的链接</li>
   <li>a:visited-用户已访问的链接</li>
   <li>a:hover-当用户鼠标放在链接上时</li>
@@ -270,6 +267,121 @@
    <span class="p">}</span>
    <span class="nt">&lt;/style&gt;</span>
    <span class="nt">&lt;/head&gt;</span>
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+<h3 id="列表样式">列表样式</h3>
+<ul>
+  <li>list-style	简写属性。用于把所有用于列表的属性设置于一个声明中。</li>
+  <li>list-style-image	将图象设置为列表项标志。</li>
+  <li>list-style-position	设置列表中列表项标志的位置。</li>
+  <li>list-style-type	设置列表项标志的类型。</li>
+  <li>
+    <p>列表缩写属性（顺序为type，position,image）:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>   ul
+   {
+   list-style:squre url(".gif");
+   }
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+<h3 id="表格th和td">表格(th和td)</h3>
+<ul>
+  <li>border-collapse	设置是否把表格边框合并为单一的边框。</li>
+  <li>border-spacing	设置分隔单元格边框的距离。</li>
+  <li>caption-side	设置表格标题的位置。</li>
+  <li>empty-cells	设置是否显示表格中的空单元格。</li>
+  <li>
+    <p>table-layout	设置显示单元、行和列的算法。</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>    <span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style </span><span class="na">type=</span><span class="s">"text/css"</span><span class="nt">&gt;</span>
+    <span class="nf">#customers</span>
+      <span class="p">{</span>
+      <span class="nl">font-family</span><span class="p">:</span><span class="s1">"Trebuchet MS"</span><span class="p">,</span> <span class="n">Arial</span><span class="p">,</span> <span class="n">Helvetica</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span><span class="m">100%</span><span class="p">;</span>
+      <span class="nl">border-collapse</span><span class="p">:</span><span class="nb">collapse</span><span class="p">;</span>
+      <span class="p">}</span>
+
+    <span class="nf">#customers</span> <span class="nt">td</span><span class="o">,</span> <span class="nf">#customers</span> <span class="nt">th</span>
+      <span class="p">{</span>
+      <span class="nl">font-size</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+      <span class="nl">border</span><span class="p">:</span><span class="m">1px</span> <span class="nb">solid</span> <span class="m">#98bf21</span><span class="p">;</span>
+      <span class="nl">padding</span><span class="p">:</span><span class="m">3px</span> <span class="m">7px</span> <span class="m">2px</span> <span class="m">7px</span><span class="p">;</span>
+      <span class="p">}</span>
+
+    <span class="nf">#customers</span> <span class="nt">th</span>
+      <span class="p">{</span>
+      <span class="nl">font-size</span><span class="p">:</span><span class="m">1.1em</span><span class="p">;</span>
+      <span class="nl">text-align</span><span class="p">:</span><span class="nb">left</span><span class="p">;</span>
+      <span class="nl">padding-top</span><span class="p">:</span><span class="m">5px</span><span class="p">;</span>
+      <span class="nl">padding-bottom</span><span class="p">:</span><span class="m">4px</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span><span class="m">#A7C942</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span><span class="m">#ffffff</span><span class="p">;</span>
+      <span class="p">}</span>
+
+    <span class="nf">#customers</span> <span class="nt">tr</span><span class="nc">.alt</span> <span class="nt">td</span>
+      <span class="p">{</span>
+      <span class="nl">color</span><span class="p">:</span><span class="m">#000000</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span><span class="m">#EAF2D3</span><span class="p">;</span>
+      <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+
+    <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;table</span> <span class="na">id=</span><span class="s">"customers"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+    <span class="nt">&lt;th&gt;</span>Company<span class="nt">&lt;/th&gt;</span>
+    <span class="nt">&lt;th&gt;</span>Contact<span class="nt">&lt;/th&gt;</span>
+    <span class="nt">&lt;th&gt;</span>Country<span class="nt">&lt;/th&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+
+    <span class="nt">&lt;tr&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Apple<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Steven Jobs<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>USA<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+
+    <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"alt"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Baidu<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Li YanHong<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>China<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+
+    <span class="nt">&lt;tr&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Google<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Larry Page<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>USA<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+
+    <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"alt"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Lenovo<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Liu Chuanzhi<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>China<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+
+    <span class="nt">&lt;tr&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Microsoft<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Bill Gates<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>USA<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+
+    <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"alt"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Nokia<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Stephen Elop<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Finland<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+
+
+    <span class="nt">&lt;/table&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+    <span class="nt">&lt;/html&gt;</span>
 </code></pre>
     </div>
   </li>
