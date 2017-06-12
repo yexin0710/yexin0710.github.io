@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f261e9b5-9f15-4a00-b7de-a7962cabd5b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/blog/2017-05-30-firstblog.md" afterPath="$PROJECT_DIR$/_posts/blog/2017-05-30-firstblog.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/blog/2017-06-05-gitconclusion.md" afterPath="$PROJECT_DIR$/_posts/blog/2017-06-05-gitconclusion.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/blog/2017-06-12-webstorm.md" afterPath="$PROJECT_DIR$/_posts/blog/2017-06-12-webstorm.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/05/30/firstblog.html" afterPath="$PROJECT_DIR$/_site/2017/05/30/firstblog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/05/gitconclusion.html" afterPath="$PROJECT_DIR$/_site/2017/06/05/gitconclusion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/The-count-of-monte-cristo.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/The-count-of-monte-cristo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/douluo.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/douluo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/douluo2.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/douluo2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/douluo3.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/douluo3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/doupo.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/doupo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/dragon-four.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/dragon-four.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/dragon-one.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/dragon-one.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/dragon-three-1.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/dragon-three-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/dragon-three-2.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/dragon-three-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/dragon-two.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/dragon-two.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/failure.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/failure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/funeral.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/funeral.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/general-economics.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/general-economics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/06/musketeer.html" afterPath="$PROJECT_DIR$/_site/2017/06/06/musketeer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/07/Dumb-fish.html" afterPath="$PROJECT_DIR$/_site/2017/06/07/Dumb-fish.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/07/Rip-It-Up.html" afterPath="$PROJECT_DIR$/_site/2017/06/07/Rip-It-Up.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/07/baron1.html" afterPath="$PROJECT_DIR$/_site/2017/06/07/baron1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/07/baron2.html" afterPath="$PROJECT_DIR$/_site/2017/06/07/baron2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/07/dust.html" afterPath="$PROJECT_DIR$/_site/2017/06/07/dust.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/07/family.html" afterPath="$PROJECT_DIR$/_site/2017/06/07/family.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/07/flowers.html" afterPath="$PROJECT_DIR$/_site/2017/06/07/flowers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/07/mountain-notes.html" afterPath="$PROJECT_DIR$/_site/2017/06/07/mountain-notes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/07/pony.html" afterPath="$PROJECT_DIR$/_site/2017/06/07/pony.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/07/sand.html" afterPath="$PROJECT_DIR$/_site/2017/06/07/sand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/08/markdown.html" afterPath="$PROJECT_DIR$/_site/2017/06/08/markdown.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/10/css.html" afterPath="$PROJECT_DIR$/_site/2017/06/10/css.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/12/webstorm.html" afterPath="$PROJECT_DIR$/_site/2017/06/12/webstorm.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/about.html" afterPath="$PROJECT_DIR$/_site/about/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/archive.html" afterPath="$PROJECT_DIR$/_site/blog/archive.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/archiveAll.html" afterPath="$PROJECT_DIR$/_site/blog/archiveAll.html" />
@@ -107,9 +79,9 @@
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_posts/blog/2017-06-08-markdown.md" />
         <option value="$PROJECT_DIR$/_posts/blog/2017-06-10-css.md" />
-        <option value="$PROJECT_DIR$/_posts/blog/2017-06-12-webstorm.md" />
         <option value="$PROJECT_DIR$/_posts/blog/2017-06-05-gitconclusion.md" />
         <option value="$PROJECT_DIR$/_posts/blog/2017-05-30-firstblog.md" />
+        <option value="$PROJECT_DIR$/_posts/blog/2017-06-12-webstorm.md" />
       </list>
     </option>
   </component>
@@ -139,8 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,8 +137,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yexin0710.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yexin0710.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,11 +267,12 @@
       <workItem from="1497277690360" duration="2575000" />
       <workItem from="1497281244393" duration="97000" />
       <workItem from="1497281363128" duration="7000" />
+      <workItem from="1497281467616" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41198000" />
+    <option name="totallyTimeSpent" value="41286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1219" height="777" extended-state="0" />
@@ -637,8 +628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/blog/2017-06-12-webstorm.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
