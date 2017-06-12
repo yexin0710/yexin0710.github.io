@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      git命令总结
+title:      Git命令总结
 category:   命令
 tags:       总结
 favour:     命令总结

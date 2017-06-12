@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      【博客搭建系列】我的第一个独立blog
-category: blog
-tags: wiki
-favour: 博客搭建
+title:      我的第一个独立Blog
+category:   blog
+tags:       wiki
+favour:     博客搭建
 description: 从0到1教你如何搭建自己的独立博客
 ---
 
