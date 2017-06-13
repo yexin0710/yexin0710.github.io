@@ -771,8 +771,8 @@
 			}, 'change');
 		}
 		window.onload = function() {
-			console.log("这里是戴荔春的个人博客!");
-			console.log("联系方式: https://dailc.github.io/about/about.html");
+			console.log("这里是陈天驰的个人博客!");
+			console.log("联系方式: https://yexin0710.github.io/about/about.html");
 			dealWithCollapsedBtn();
 			dealSearch();
 		};

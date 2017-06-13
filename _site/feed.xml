@@ -5,9 +5,25 @@
     <description>整理总结自己零散的知识体系，向世界诠释自己人生的意义！</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Jun 2017 23:33:01 +0800</pubDate>
-    <lastBuildDate>Mon, 12 Jun 2017 23:33:01 +0800</lastBuildDate>
+    <pubDate>Tue, 13 Jun 2017 10:36:50 +0800</pubDate>
+    <lastBuildDate>Tue, 13 Jun 2017 10:36:50 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>计算机基础简单汇总</title>
+        <description>&lt;h2 id=&quot;知识点总结&quot;&gt;知识点总结&lt;/h2&gt;
+
+</description>
+        <pubDate>Tue, 13 Jun 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/06/13/computerbasis.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/13/computerbasis.html</guid>
+        
+        <category>总结</category>
+        
+        
+        <category>汇总</category>
+        
+      </item>
     
       <item>
         <title>Webstorm学习总结</title>
@@ -162,26 +178,6 @@
         <guid isPermaLink="true">http://localhost:4000/2017/06/07/dust.html</guid>
         
         <category>散文</category>
-        
-        
-        <category>book</category>
-        
-      </item>
-    
-      <item>
-        <title>临界爵迹2</title>
-        <description>&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
-&lt;blockquote&gt;
-  传说中的奥汀大陆分为东南西北四国，在这个世界中，充斥着神秘莫测的魂术，弥漫着权力和欲望的激烈争夺。这四个国家中，最强等级的魂术师被称为【王爵】，每个国家的【王爵】各有七位，他们代表着整个国家最巅峰的力量。本书宏大而复杂的故事，就开始于四国中的西之亚斯蓝帝国。
-  生性单纯而憨厚的平民少年麒零，无意中卷入了这场帝国间的斗争。从未接受过魂术训练的他，却被选为第七王爵的【使徒】，从此跟随他的【王爵】出生入死。那些曾经只存在于人们想象中的强大魂术，开始不断出现在麒零眼前;那些帝国统治者之间的恩怨纠葛，也渐渐显现了真相的影踪。
-  究竟【王爵】们巨大而恐怖的力量由何而来?传说中至高无上的【白银祭司】又掌握着怎样的真相?跟随这个叫做麒零的少年，开始这场关于元素与灵魂力量的盛大冒险。
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 07 Jun 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/06/07/baron2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/06/07/baron2.html</guid>
-        
-        <category>小说</category>
         
         
         <category>book</category>
