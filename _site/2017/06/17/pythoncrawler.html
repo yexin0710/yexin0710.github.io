@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Python网络爬虫（1） | Yexin的个人主页</title>
+    <meta name="author" content="yexin" />
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="Everything about yexin" />
+    <meta name="baidu-site-verification" content="" />
+    <meta name="keywords" content="yexin,陈天驰,陈天驰的博客,yexin的博客" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  	<link href="/asserts/css/default.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="/asserts/js/app.js" ></script> 
+</head>
+<body>
+	<!--头部 -->
+	<header class="header">
+		<div class="header-container">
+			<section class="site-logo">
+				<a  href="/">叶心</a>
+			</section>
+			<button class="collapsed " type="button" >
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		    </button>
+		    <div class="menu-container">
+				<nav class="site-nav">
+					<ul>
+						<li>
+							<a  href="/blog/archiveAll.html">随笔</a>
+						</li>
+						<li>
+							<a  href="/blog/archive.html">博客</a>
+						</li>
+						<li>
+							<a  href="/blog/categories.html">分类</a>
+						</li>
+						<li>
+							<a  href="/blog/tags.html">标签</a>
+						</li>
+						<li>
+							<a  href="/demo/demo.html">Demo</a>
+						</li>
+						<li>
+							<a  href="/favour/music.html">音乐</a>
+						</li>
+						<li>
+							<a  href="/favour/book.html">Book</a>
+						</li>
+						<li>
+							<a  href="/about/timeline.html">时间轴</a>
+						</li>
+						<li>
+							<a  href="/others/collection.html">收藏</a>
+						</li>
+						<li>
+							<a  href="/about/about.html">关于</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="site-search">
+					<input type="text" />
+				</div>
+			</div>
+		</div>
+	</header>
+	<link href="/asserts/css/blog_article_post.css" rel="stylesheet" type="text/css" media="all">
+<link href="/asserts/css/blog_personCard_style.css" rel="stylesheet" type="text/css" media="all">
+<link href="/asserts/css/imageBubble.css" rel="stylesheet" type="text/css" media="all">
+	
+	<div class="wrap">
+		<div class="container">
+			<!-- 左侧，内容，多说评论等-->
+			<div class="col-md-9">
+				<!-- 内容-->
+				<div class="markdown-body">
+					<!--标题区域 -->
+					<div class="title-container">
+					<h1 class="page-title"><a  title="Python网络爬虫（1）">Python网络爬虫（1）</a> </h1>
+						<!-- metainfo-->
+						<section class="meta clearfix">
+<span class="time">
+<time datetime="2017-06-17">2017-06-17</time>
+</span>
+
+| 
+<span class="categories">
+	分类
+	    
+	    <a href="/blog/categories.html#爬虫" title="爬虫">爬虫</a>&nbsp;
+	    
+</span>
+
+
+| 
+<span class="tags">
+	标签
+		
+		<a href="/blog/tags.html#爬虫" title="爬虫">爬虫</a>&nbsp;
+		
+</span>
+
+| 
+<span class="views">
+	浏览
+	<a id="busuanzi_value_page_pv"></a>&nbsp;
+</span>
+</section>
+						<section class="right-tips">
+							<span >
+								爬虫
+							</span>
+						</section>
+					</div>
+					<!-- 特别推荐-->
+					
+					<!-- 内容区域-->
+					<div class="content-container">
+						 <h2 id="为什么要写爬虫">为什么要写爬虫</h2>
+<p>爬虫作为网络世界的信息搜寻工，可以说对于网络来说是不可或缺的一部分，搜索引擎的基础也是爬虫，可见其地位的重要性。我们当然不能写出像百度这样的庞然大物，但是写出一些有助于提高信息搜集能力的爬虫来帮助我们工作和生活还是可以的。
+简单来说用一个爬虫处理信息要比自己手动处理信息方便的多，可以节省大量的时间去做其他事情而不是把时间放到重复的操作上面，这是一种以时间换取时间的工作方法。</p>
+
+<h2 id="爬虫处理了什么">爬虫处理了什么</h2>
+<p>爬虫主要处理非结构化的数据（没有固定的数据结构，网页资料等），并将它们转化成结构化的信息，以方便用户进行分析总结。</p>
+
+<h2 id="简单网络爬虫的架构">简单网络爬虫的架构</h2>
+<p>根据web connector(网页链接器)request(请求)到网页，网页response(回应),这一一般网页请求模式来进行爬虫开发，通过对原始资料的资料剖析，由ETL脚本来进行数据抽取转换，将非结构化的网页数据转化为结构化数据，最后存储到数据库中。</p>
+
+<h2 id="开始写爬虫前的准备工作">开始写爬虫前的准备工作</h2>
+<h3 id="使用开发人员工具">使用开发人员工具</h3>
+<p>观察http请求与返回的内容，单击右键选择检查，选择network页签，doc，刷新网页进行观察。（推荐使用<a href="http://www.google.cn/chrome/browser/desktop/">chrome浏览器</a>的內建开发人员工具）</p>
+<h3 id="安装requestsbeautifulsoup4jupyter">安装requests,BeautifulSoup4,jupyter</h3>
+<ul>
+  <li>pip install requests(网络资源撷取套件)</li>
+  <li>pip install BeautifulSoup4(找出所有含有特定标签的html元素，使用select找出含有XX的元素)(基础操作：select，ID前需加#，Class前需加.)</li>
+  <li>pip install jupyter(用jupyter notebook编辑python,撰写爬虫)</li>
+</ul>
+
+<h2 id="新浪新闻网络爬虫">新浪新闻网络爬虫</h2>
+<ul>
+  <li>抓起内文资料
+    <ul>
+      <li>取得内文页面</li>
+      <li>抓取标题</li>
+      <li>来源与时间（取得时间及来源）</li>
+      <li>处理新闻来源信息</li>
+      <li>取得内文</li>
+      <li>取得编辑名称</li>
+      <li>取得评论数</li>
+    </ul>
+  </li>
+  <li>剖析新闻标识符
+    <ul>
+      <li>取得新闻编号（正规表达式）</li>
+      <li>将抓取评论数方法整理成一函式</li>
+    </ul>
+  </li>
+  <li>内文信息抽取函式
+    <ul>
+      <li>将抓取内文信息的方法整理成一函式，一次回传全部抓取的信息</li>
+    </ul>
+  </li>
+  <li>从列表中连结取出每篇新闻内容
+    <ul>
+      <li>取得每个分页的清单</li>
+      <li>剖析分页信息</li>
+      <li>建立剖析清单链接函式</li>
+      <li>使用for循环产生多页链接</li>
+      <li>批次抓取每页新闻内文</li>
+    </ul>
+  </li>
+  <li>使用Pandas套件整理资料</li>
+  <li>保存到数据库
+    <ul>
+      <li>将资料保存到sqlite3中</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="具体代码如下">具体代码如下</h2>
+<p>由于范例中许多代码都是一步成型的编写，有几个步骤的跳跃如不能够理解，请联系本人索要细节代码，（细节部分代码略过不进行整理），只写出最终可运行代码。</p>
+<h3 id="三个函式">三个函式</h3>
+<p>自定义函式代码整理</p>
+<h5 id="评论数整理函式">评论数整理函式</h5>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    import re
+    import json
+    def getcommentcounts(newsurl)
+    m=re.search('doc-i(.t).shtml',newsurl)
+    newsid = m.group(1)
+    comments = requests.get (commentURL.format(newsid))
+    jd = json.loads(comments.text.strip('var data= '))
+    return jd ['result']['count']['total']
+
+    news = 'http:// '
+    getcommentcounts(news)
+</code></pre>
+</div>
+
+<h5 id="内文信息抽取函式">内文信息抽取函式</h5>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    import requests
+    from bs4 import BeautifulSoup
+    def getnewsdetail(newssurl:):
+        result={}
+        res = requests.get(newssurl)
+        res.encoding = 'utf-8'
+        soup = BeautfulSoup(res.text,'html.parser')
+        result['title'] = soup.select('#artibody Title')[0].text
+        result['newssource'] = soup.selet('.time-source span a')[0].text
+        timesource = soup.select('.time-source')[0].contents[0].strip()
+        result['dt'] = datetime.strptime(timesource , '%Y年%m月%d日.%H:%M')
+        result['article'] = ' '.join[p.text.strip()for p in soup.select('#artibody p')[:-1]]
+        result['editor'] = soup.select('.article-editor')[0].text.strip('责任编辑')
+        result[]'comments' = getcommentcounts(newsurl)
+        return result
+
+    getnewsdetail('http://   ')
+</code></pre>
+</div>
+
+<h5 id="剖析清单链接函式">剖析清单链接函式</h5>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    def parselistlinks(url):
+        newsdetals = []
+        res = requests.get(url)
+        jd = json.loads(res.text.lstrip('newsloadercallback(').rstrip(');'))
+        for ent in jd['result']['data']:
+            newsdetails.apped(getnewsdetail(ent['url']))
+        return newsdetails
+    url ='http：//   '
+    parselistlinks(url)
+</code></pre>
+</div>
+
+<h3 id="使用for循环产生多页连结">使用for循环产生多页连结</h3>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    url = 'http://   {}'
+    for i in range(1,10):
+        newssurl = url.format(i)
+        print(newsurl)
+</code></pre>
+</div>
+
+<h3 id="批次抓取每页新闻内容">批次抓取每页新闻内容</h3>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    import requests
+    url = 'http://    '
+    news_total =[]
+    for i in range(1,3):
+        newsurl = url.format(i)
+        newsary = parselistlinks(newsurl)
+        news_total.extend(newsary)
+    len(nwes_total)
+</code></pre>
+</div>
+
+<h3 id="使用pandas整理资料">使用Pandas整理资料</h3>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    import pandas
+    df = pandas.DataFrame(news_total)
+        df.head()
+</code></pre>
+</div>
+
+<h3 id="保存到数据库">保存到数据库</h3>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    df.to_excel('news.xlsx')
+</code></pre>
+</div>
+
+<h3 id="保存到资料库">保存到资料库</h3>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    import sqlite 3
+    with sqlite3.connect.('news.sqlite')as db:
+    df.to_sql('news',con = db)
+</code></pre>
+</div>
+
+<h3 id="总结">总结</h3>
+<p>由于对底层技术不甚了解，所以写一个爬虫很是吃力，有更好的解决方案我会及时更新出来。对于此次新浪新闻爬虫只是停留在理论学习阶段，未进行实际测试，如有需要实际应用的朋友可以自己将代码改写。感谢您花费时间查看此爬虫。</p>
+
+
+					</div>
+					<!-- 上一篇与下一篇-->
+					<section align="right" class="post-next-prev">
+					  <span>
+					    <a  href="/2017/06/13/computerbasis.html" class="active"  >上一篇</a>
+					    &nbsp;&nbsp;&nbsp;
+					    <a   class="pageNavInvalid"  >下一篇</a>
+					  </span>
+					</section>
+				</div>
+				<!-- 多说-->
+				
+				
+				
+			</div>
+			
+			<!-- 右侧包括个人介绍，TOC菜单-->
+			<div class="col-md-3">
+				<!-- 右侧人物面板-->
+				<div class="effect1 person-card">
+					
+				 	<a  class="member-image">
+				 			<img src="/asserts/images/img_avatar.jpg" alt="Lichun Dai"/>
+				 	</a>
+				 	<div class="member-info">
+				 		<p class="info-name">
+				 		<a >
+				 			Tianchi Chen
+				 		</a>
+				 		</p>
+				 		<p>
+				 			理胜力为常，力胜理为变；一时之强弱在力，千古之胜败在理！欢迎光临我的博客，希望你在此有所收获！
+				 		</p>
+				 	<p class="info-foot">
+				 		<a class="left-card left" href="/blog/archive.html">
+				 			<em>
+				 				博客
+				 			</em>
+				 			<strong>
+				 				1
+				 				
+				 			</strong>
+				 		</a>
+				 		<a class="middle-card left" href="/demo/demo.html">
+				 			<em>
+				 				项目
+				 			</em>
+				 			<strong>
+				 				
+				 			</strong>
+				 		</a>
+				 		<a class="right-card left" href="/blog/archiveAll.html">
+				 			<em>
+				 				随笔
+				 			</em>
+				 			<strong>
+				 				31
+				 			</strong>
+				 		</a>
+				 	</p>
+				 	<p class="info-social-touch">
+				 		<a target="_blank" href="https://github.com/yexin0710" ><img src="/asserts/images/icons/favicon_github.ico" alt="GitHub"/> </a>
+						<a target="_blank" ><img src="/asserts/images/icons/favicon_5sing.ico" alt="5sing" /> </a>
+						<a target="_blank" ><img src="/asserts/images/icons/favicon_changba.ico" alt="唱吧" /> </a>
+						<a target="_blank" href="https://www.zhihu.com/people/yexin0710"><img src="/asserts/images/icons/favicon_zhihu.ico" alt="知乎" /> </a>
+						<a target="_blank" href="http://www.jianshu.com/u/d4ee83b8e5bc"><img src="/asserts/images/icons/favicon_jianshu.ico" alt="简书" /> </a>
+				 	</p>
+				 	</div>
+				</div>
+
+				 <!-- TOC动态菜单-->
+				  <div class="slideNavContainer">     
+				</div> 				
+					
+			</div> 
+ 
+		</div>
+	</div>
+		
+<script type="text/javascript" src="/asserts/js/post.js" ></script>
+<script type="text/javascript" src="/asserts/js/imageBubble.js" ></script>
+<script>
+	ImageBubble.init('.container img');
+</script>
+	
+	<!-- 脚步,包括版权声明，访问次数等-->
+	<footer class="footer">
+	    <p class="copyright">
+	    	<small>
+	            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank" title="许可协议">©</a> 2016&nbsp;&nbsp;&nbsp;&nbsp;<a href="/about/">Tianchi Chen</a>
+	        </small>
+	    </p>
+	    <p class="more-tips">
+	    	<span>Powered by Jekyll</span>&nbsp;&nbsp;&nbsp;&nbsp;
+	    	<span id="busuanzi_container_site_pv">总访客<span id="busuanzi_value_site_uv" class="site-uv"></span>人</span>&nbsp;&nbsp;&nbsp;&nbsp;
+	    	<span id="busuanzi_container_site_pv">总访问<span id="busuanzi_value_site_pv" class="site-pv"></span>次</span>
+	    </p>  
+	</footer>
+
+<script>
+//百度统计
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?4cad880c1ba83acf9a10265a8a5aab1a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!--不蒜子 -->
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+</body>
+</html>

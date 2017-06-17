@@ -1,5 +1,5 @@
 ---
-layout:     post（布局）
+layout:     post
 title:      Python网络爬虫（1）
 category:   爬虫
 tags:       爬虫
