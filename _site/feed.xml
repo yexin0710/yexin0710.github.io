@@ -5,9 +5,25 @@
     <description>整理总结自己零散的知识体系，向世界诠释自己人生的意义！</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Jun 2017 16:13:07 +0800</pubDate>
-    <lastBuildDate>Sat, 17 Jun 2017 16:13:07 +0800</lastBuildDate>
+    <pubDate>Mon, 19 Jun 2017 20:06:52 +0800</pubDate>
+    <lastBuildDate>Mon, 19 Jun 2017 20:06:52 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>操作系统学习总结</title>
+        <description>&lt;h2 id=&quot;操作系统概述&quot;&gt;操作系统概述&lt;/h2&gt;
+
+</description>
+        <pubDate>Sun, 18 Jun 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/06/18/operatingsystem.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/18/operatingsystem.html</guid>
+        
+        <category>总结</category>
+        
+        
+        <category>汇总</category>
+        
+      </item>
     
       <item>
         <title>Python网络爬虫（1）</title>
@@ -159,25 +175,6 @@
         <guid isPermaLink="true">http://localhost:4000/2017/06/07/flowers.html</guid>
         
         <category>散文</category>
-        
-        
-        <category>book</category>
-        
-      </item>
-    
-      <item>
-        <title>降灵家族</title>
-        <description>&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
-&lt;blockquote&gt;
-  作为传说中“鬼王”钟馗的嫡系传人，钟家的血脉里都流着鬼王的血，背负着降妖伏鬼的宿命。钟旭，正当花样年花的少女，在普通公司小职员的外表下，暗藏着现代都市抓鬼天师的身份。弟弟钟晴、奶奶钟老太，一家三口，其乐融融。
-  发生在“长瑞大厦”的闹鬼事件，钟家推托不过商业巨子司徒月波的邀请，出手降灵。在这一次凶险万分的过程中，钟旭负伤，进了医院，也因而与司徒月波产生了情愫。其后，钟旭被司徒月波求婚，嫁给了他。但婚后的日子并不太平，钟老太和钟晴病倒，更神秘和不可捉摸的事件隐藏在漩涡背后……
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 07 Jun 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/06/07/family.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/06/07/family.html</guid>
-        
-        <category>小说</category>
         
         
         <category>book</category>
