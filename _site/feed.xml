@@ -5,23 +5,56 @@
     <description>整理总结自己零散的知识体系，向世界诠释自己人生的意义！</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Jun 2017 18:34:44 +0800</pubDate>
-    <lastBuildDate>Tue, 20 Jun 2017 18:34:44 +0800</lastBuildDate>
+    <pubDate>Mon, 26 Jun 2017 10:09:55 +0800</pubDate>
+    <lastBuildDate>Mon, 26 Jun 2017 10:09:55 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
-        <title>操作系统学习总结</title>
-        <description>&lt;h2 id=&quot;操作系统概述&quot;&gt;操作系统概述&lt;/h2&gt;
+        <title>实用网站资源汇总(1)</title>
+        <description>&lt;h2 id=&quot;收录网站&quot;&gt;收录网站&lt;/h2&gt;
+&lt;h3 id=&quot;工具类&quot;&gt;工具类&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;rss订阅工具&lt;a href=&quot;https://www.inoreader.com/all_articles&quot;&gt;inoreader&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;H5图文排版工具&lt;a href=&quot;https://xiumi.us&quot;&gt;秀米&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;艺术字体在线生成&lt;a href=&quot;http://www.qt86.com/&quot;&gt;艺术字体&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;在线二维码生成器&lt;a href=&quot;http://www.liantu.com/&quot;&gt;联图&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;在线制作表情&lt;a href=&quot;http://www.doubean.com/face/ListWithlmage.aspx&quot;&gt;doubean&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;批量下载视频[http://www.flvcd.com/]&lt;/li&gt;
+  &lt;li&gt;小白一键建站&lt;a href=&quot;http://www.faisco.cn/&quot;&gt;凡客商务&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;企业官网搭建&lt;a href=&quot;http://www.metinfo.cn/&quot;&gt;米拓&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;在线Markdown编辑器&lt;a href=&quot;http://mahua.jser.me/&quot;&gt;Mahua&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PPT设计利器&lt;a href=&quot;http://www.hippter.com/&quot;&gt;HiPPTer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;为创意者提供好工具&lt;a href=&quot;http://toolfan.cn&quot;&gt;toollfan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;音乐/音效素材来源，剪辑/压缩软件
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.jamendo.com/&quot;&gt;Jamendo&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.freesound.org/&quot;&gt;Freesound&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;免费音效包&lt;a href=&quot;http://t.cn/RZ5doVV&quot;&gt;Adobe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;找icon&lt;a href=&quot;http://www.easyicon.net/&quot;&gt;Easy icon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;图片压缩&lt;a href=&quot;http://tinypng.com/&quot;&gt;TinyPNG&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;快速、稳定的网盘搜索&lt;a href=&quot;http://www.pan115.com/&quot;&gt;pan115&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;全能型网盘搜索神器[http://www.xilinjie.com/]&lt;/li&gt;
+  &lt;li&gt;实用互联网神器
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://taoxiaozhong.com/&quot;&gt;淘小众&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hao.199it.com/&quot;&gt;大数据导航&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.pmdaniu.com/&quot;&gt;产品大牛&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.gogeeks.cn&quot;&gt;极客导航&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
-        <pubDate>Sun, 18 Jun 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/06/18/operatingsystem.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/06/18/operatingsystem.html</guid>
+        <pubDate>Mon, 26 Jun 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/06/26/resources.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/26/resources.html</guid>
         
-        <category>总结</category>
+        <category>资源</category>
         
         
-        <category>汇总</category>
+        <category>资源</category>
         
       </item>
     
