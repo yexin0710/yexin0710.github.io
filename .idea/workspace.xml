@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f261e9b5-9f15-4a00-b7de-a7962cabd5b4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/blog/2017-06-26-resources.md" afterPath="$PROJECT_DIR$/_posts/blog/2017-06-26-resources.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/06/26/resources.html" afterPath="$PROJECT_DIR$/_site/2017/06/26/resources.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="2017-06-26-resources.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/blog/2017-06-26-resources.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+            <state relative-caret-position="503">
+              <caret line="93" column="59" selection-start-line="93" selection-start-column="59" selection-end-line="93" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -299,12 +300,12 @@
       <workItem from="1497420018690" duration="12429000" />
       <workItem from="1497687134935" duration="13000" />
       <workItem from="1497791182682" duration="9454000" />
-      <workItem from="1497936438192" duration="16607000" />
+      <workItem from="1497936438192" duration="16922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82108000" />
+    <option name="totallyTimeSpent" value="82423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1219" height="777" extended-state="0" />
@@ -682,8 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/blog/2017-06-26-resources.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+        <state relative-caret-position="503">
+          <caret line="93" column="59" selection-start-line="93" selection-start-column="59" selection-end-line="93" selection-end-column="59" />
           <folding />
         </state>
       </provider>
