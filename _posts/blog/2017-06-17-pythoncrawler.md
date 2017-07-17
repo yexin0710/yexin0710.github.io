@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Python网络爬虫（1）
+title:      Python网络爬虫(1)
 category:   爬虫
 tags:       爬虫
 favour:     爬虫
