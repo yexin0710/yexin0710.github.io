@@ -27,8 +27,8 @@ description:
 认定中心主题，将所列概念排序，将其余概念一层一层排放至列表中，开始制作概念图（最高层涵盖性概念，二三四层子概念）,将概念写在连线上，重新整理概念图的结构，为配置在不同分支上的概念寻找有意义的横向连结并在线上用连结字写上关系，运用简图或代表符号来表达仔细具体的例子。
 
 ## 软件
-[Mindnode](https://mindnode.com/)
-[Xmind](http://www.xmindchina.net/)
+* [Mindnode](https://mindnode.com/)
+* [Xmind](http://www.xmindchina.net/)
 
 ## 总结
 
