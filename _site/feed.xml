@@ -5,8 +5,8 @@
     <description>整理总结自己零散的知识体系，向世界诠释自己人生的意义！</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Jun 2017 18:00:22 +0800</pubDate>
-    <lastBuildDate>Tue, 27 Jun 2017 18:00:22 +0800</lastBuildDate>
+    <pubDate>Mon, 17 Jul 2017 17:33:45 +0800</pubDate>
+    <lastBuildDate>Mon, 17 Jul 2017 17:33:45 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -123,7 +123,7 @@
       </item>
     
       <item>
-        <title>Python网络爬虫（1）</title>
+        <title>Python网络爬虫(1)</title>
         <description>&lt;h2 id=&quot;为什么要写爬虫&quot;&gt;为什么要写爬虫&lt;/h2&gt;
 爬虫作为网络世界的信息搜寻工，可以说对于网络来说是不可或缺的一部分，搜索引擎的基础也是爬虫，可见其地位的重要性。我们当然不能写出像百度这样的庞然大物，但是写出一些有助于提高信息搜集能力的爬虫来帮助我们工作和生活还是可以的。
 简单来说用一个爬虫处理信息要比自己手动处理信息方便的多，可以节省大量的时间去做其他事情而不是把时间放到重复的操作上面，这是一种以时间换取时间的工作方法。
